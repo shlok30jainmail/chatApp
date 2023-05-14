@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f8f8f8;
+    /* font-family:; */
+}
+ /* making */
+.list-btn{
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
+    padding: 7px 10px;
+    background: #e8eb64;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    max-width: 50px;
+    margin: 5px;
+
+}
+
+.user-list{
+    /* visibility: hidden; */
+
+    position: relative;
+    top: -20px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    background-color: #e7e7ee;
+    max-width: 100px;
+    margin-right: 20px;
+    margin-left: auto;
+    z-index: 1;
+}
+.v{
+    display: none;
+
+}
+.user-list h3{
+    background-color: #787986;
+    text-align: center;
+    width: 100%;
+
+}
+.user-list p{
+    margin-top:5px ;
+    text-align: center;
+
+
+}
+ /* making end */
+section.chat_section{
+    width: 800px;
+    max-width: 90%;
+    background-color: #fff;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05) ;
+
+}
+
+.brand{
+    padding: 20px;
+    background-color: #f1f1f1;
+    display:flex;
+    align-items: center;
+}
+
+.brand h1{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #444;
+    margin-left: 10px;
+}
+.brand h4{
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #444;
+    margin-left: auto;
+}
+.message_area{
+    height: 500px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y:auto;
+    padding-top: 40px;
+
+}
+
+textarea{
+    width: 100%;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    outline: none;
+    background:#fbfbfb;
+}
+
+.message{
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    max-width: 300px;
+    position: relative;
+    word-wrap: break-word;
+}
+
+.user-join{
+   
+    background: #faf9be;
+    color: rgb(24, 23, 23);
+    max-width: 200px;
+    margin: auto;
+    /* text-align: center; */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 3px;
+
+
+}
+
+.incoming{
+    background: #8f8be8;
+    color: #fff;
+    
+
+}
+.outgoing{
+    background: #e9eafd;
+    color: #787986;
+    margin-left: auto;
+}
+
+.message h4{
+    /* position: absolute; */
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    color: #333;
+    font-size: 14px;
+
+}
